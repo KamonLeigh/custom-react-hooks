@@ -2,7 +2,9 @@ import React from "react";
 import { Card, CardGrid, Container, Header } from "./Elements";
 import "./App.css";
 import { Toggle } from './components/Toggle';
-import Inc from './components/Inc'
+import Inc from './components/Inc';
+import Hover from './components/Hover';
+import Mount from './components/Mount';
 import Menu from "./Menu";
 import blue from "./blue.png";
 import purp from "./purp.png";
@@ -21,6 +23,8 @@ function App() {
         <h2>Super Cool</h2>
         <Toggle/>
         <Inc/>
+        <Mount/>
+        <Hover/>
         <CardGrid>
           <Card style={{ background: "var(--purp)" }}>
             <h3>Some card</h3>
