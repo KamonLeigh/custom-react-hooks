@@ -1,7 +1,8 @@
 import React from "react";
 import { Card, CardGrid, Container, Header } from "./Elements";
 import "./App.css";
-import { Toggle } from './components/Toggle'
+import { Toggle } from './components/Toggle';
+import { useToggle } from './hooks/useToggle';
 import Menu from "./Menu";
 import blue from "./blue.png";
 import purp from "./purp.png";
