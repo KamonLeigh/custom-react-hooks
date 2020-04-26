@@ -2,9 +2,11 @@ import React from "react";
 import { Card, CardGrid, Container, Header } from "./Elements";
 import "./App.css";
 import { Toggle } from './components/Toggle';
+import { PageWrapper } from './state'
 import Inc from './components/Inc';
 import Hover from './components/Hover';
 import Mount from './components/Mount';
+import Nav from './components/Nav'
 import Menu from "./Menu";
 import blue from "./blue.png";
 import purp from "./purp.png";
@@ -14,11 +16,13 @@ import green from "./green.png";
 
 function App() {
   return (
+    <PageWrapper>
     <div>
       <Header>
         <Menu />
         <h1>Header</h1>
       </Header>
+      <Nav/>
       <Container>
         <h2>Super Cool</h2>
         <Toggle/>
@@ -45,6 +49,7 @@ function App() {
         </CardGrid>
       </Container>
     </div>
+    </PageWrapper>
   );
 }
 
