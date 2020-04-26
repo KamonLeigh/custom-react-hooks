@@ -6,6 +6,7 @@ import { PageWrapper } from './state'
 import Inc from './components/Inc';
 import Hover from './components/Hover';
 import Mount from './components/Mount';
+import Cookie from './components/Cookie';
 import Nav from './components/Nav'
 import Menu from "./Menu";
 import blue from "./blue.png";
@@ -25,6 +26,7 @@ function App() {
       <Nav/>
       <Container>
         <h2>Super Cool</h2>
+        <Cookie/>
         <Toggle/>
         <Inc/>
         <Mount/>
