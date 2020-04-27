@@ -8,6 +8,9 @@ import Hover from './components/Hover';
 import Mount from './components/Mount';
 import Cookie from './components/Cookie';
 import Nav from './components/Nav'
+import Script from './components/Script';
+import Query from './components/Query';
+
 import Menu from "./Menu";
 import blue from "./blue.png";
 import purp from "./purp.png";
@@ -26,6 +29,9 @@ function App() {
       <Nav/>
       <Container>
         <h2>Super Cool</h2>
+        <Script/>
+         <Script/>
+         <Query/>
         <Cookie/>
         <Toggle/>
         <Inc/>
